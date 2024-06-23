@@ -13,6 +13,7 @@
         <div>
             <livewire:counter/>
             <livewire:users/>
+            <livewire:notes/>
         </div>
     </body>
 </html>
