@@ -16,6 +16,8 @@ class Notes extends Component
 
     public function storeNote()
     {
+        $this->validate();
+
         Note::create([
             'title' => $this->title,
         ]);
